@@ -1,0 +1,26 @@
+<!--
+	This works on the tutorial provided in the following link:
+	http://docs.jquery.com/Tutorials:How_jQuery_Works
+
+	Although I know jQuery (I completed the jQuery Air and jQuery Captains Log
+	in CodeSchool.com), this is more for practice than anything else.
+	Heck, the repo which hosts this is for practice only
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Demo</title>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$("a").click(function(event) {
+					event.preventDefault();
+					alert("Thanks for Visiting!");
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<a href="http://jquery.com/">jQuery</a>
+	</body>
+</html>
